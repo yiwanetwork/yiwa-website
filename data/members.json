@@ -1,0 +1,46 @@
+{
+    "caseohwiki":{
+        "name":"CaseOh Wiki",
+        "icon":"https://caseoh.wiki/images/caseohwiki/1/1a/Caseoh2.webp",
+        "url":"https://caseoh.wiki",
+        "about":"CaseOh a.k.a Case Baker is an American livestreamer and YouTuber known for creating content around playing a variety of games.",
+        "socials":{
+            "twitter":{
+                "icon":"./images/twitter.png",
+                "url":"https://x.com/caseohwiki"
+            },
+            "discord":{
+                "icon":"./images/discord-colored.png",
+                "url":"https://discord.gg/6DMxNmbzKQ"
+            },
+            "bluesky":{
+                "icon":"./images/bluesky.png",
+                "url":"https://bsky.app/caseoh.wiki"
+            }
+        }
+    },
+    "dantdmwiki":{
+        "name":"DanTDM Wiki",
+        "icon":"https://dantdm.wiki/images/dantdmwiki/0/04/DanTDMWikiIcon.png",
+        "url":"https://dantdm.wiki",
+        "about":"Daniel 'Robert' Middleton better known online as DanTDM, is a content creator on YouTube. He is best and commonly known for his Minecraft videos of Mod Showcases, Custom Mod Adventures, The Diamond Dimensions, etc.",
+        "socials":{
+            "discord":{
+                "icon":"./images/discord-colored.png",
+                "url":"https://discord.gg/shDBVsZM"
+            }
+        }
+    },
+    "jsalwiki":{
+        "name":"JackSucksAtLife Wiki",
+        "icon":"https://static.wikitide.net/jsalwiki/8/82/Jasl.org.png",
+        "url":"https://wiki.jsal.org",
+        "about":"Jack Massey Welsh is a English YouTuber. He is known for play button content, Reddit content on his second channel and even Geography content on his geography channel.",
+        "socials":{
+            "discord":{
+                "icon":"./images/discord-colored.png",
+                "url":"https://discord.gg/UG55VMPFfd"
+            }
+        }
+    }
+}
