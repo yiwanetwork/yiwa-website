@@ -1,3 +1,18 @@
 {
-    
+    "gwn":{
+        "name":"Gaming Wiki Network",
+        "icon":"./images/Logo-GamingWikiNetwork.png",
+        "url":"https://gamingwikinetwork.org",
+        "about":"The Gaming Wiki Network, or GWN, was founded on October 21, 2022 by 11 members and 3 affiliates. The GWN is a network of independently-hosted wikis about video game franchises and aims to support all gaming communities in building independently-hosted wikis. The GWN has 27 members and 5 affiliates at present.",
+        "socials":{
+            "twitter":{
+                "icon":"./images/twitter.png",
+                "url":"https://www.twitter.com/GamingWikiNet"
+            },
+            "discord":{
+                "icon":"./images/discord-colored.png",
+                "url":"https://discord.com/invite/pCfH7uk9jh"
+            }
+        }
+    }
 }
