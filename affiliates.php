@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Affiliates - YIWA</title>
     <link rel="stylesheet" href="./main.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/yiwa.png">
+    <meta name="description" content="Affiliates and Friends of YouTube Independent Wiki">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -65,7 +69,7 @@
                             </div>
                         </div>
                         <p><?php echo $about; ?></p>
-                        <a href="<?php echo $url; ?>" target="_blank" class="wiki-link">Visit Wiki →</a>
+                        <a href="<?php echo $url; ?>" target="_blank" class="wiki-link">Visit →</a>
                     </div>
                 <?php
                 }

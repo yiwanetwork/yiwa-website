@@ -42,5 +42,11 @@
                 "url":"https://discord.gg/UG55VMPFfd"
             }
         }
+    },
+    "doughole":{
+        "name":"The Doug UNOFFICIAL Hole Wiki",
+        "icon":"https://yiwanetwork.org/images/DougHole.png",
+        "url":"https://thedougunofficialwiki.miraheze.org",
+        "about":"The Doug UNOFFICIAL Hole, the DougDoug Encyclopedia purely dedicated to organizing and archiving DougDoug's unofficial channels and content. Here we have information about channels, events, fanart, and other things that should not be on the official wiki because they are not canon in the DougDoug Cinematic Universe."
     }
 }

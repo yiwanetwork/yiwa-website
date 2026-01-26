@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YIWA - YouTube Independent Wiki Alliance</title>
     <link rel="stylesheet" href="./main.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/yiwa.png">
+    <meta name="description" content="The YouTube Independent Wiki alliance is a network of community controlled YouTuber wikis.">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
