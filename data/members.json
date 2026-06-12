@@ -54,5 +54,17 @@
                 "url":"https://discord.gg/6KZvXe7Mmv"
             }  
         }
+    },
+    "osfirsttimer":{
+        "name":"OSFirstTimer Wiki",
+        "icon":"https://osfirsttimer.wiki/assets/logo.svg",
+        "url":"https://osfirsttimer.wiki",
+        "about":"OSFirstTimer (Philip Adams) is a YouTube content creator for technology. He is known to let his mother to try out software and operating systems throughout the ages.",
+        "socials":{
+            "discord":{
+                "icon":"./images/discord-colored.png",
+                "url":"https://discord.gg/4RGsMRwfUU"
+            }  
+        }
     }
 }
