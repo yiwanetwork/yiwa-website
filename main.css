@@ -216,6 +216,12 @@ nav ul li a:hover {
     font-size: 0.8rem;
 }
 
+.footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
 /* Page Header */
 .join-header {
     padding: 60px 0;
@@ -329,22 +335,25 @@ nav ul li a:hover {
     }
 }
 @media (max-width: 650px) {
-    nav ul {
-        display: block;
-    }
     .navbar-Top {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
     }
     .navbar-Top button {
         display: block;        
         width: 40px; 
         height: 40px;
         border-radius: 8px;
+        border: 1px solid #333;
         background-color: #000000;
         background-image: url('./images/icons8-menu-100.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 30px;
+        cursor: pointer;
+        flex-shrink: 0;
     }
     .navbar {
         height: unset;
@@ -358,6 +367,11 @@ nav ul li a:hover {
 
     #navbar-Content {
         display: none;
+        padding-top: 12px;
+    }
+
+    #navbar.menu-open #navbar-Content {
+        display: block;
     }
 
     .navbar .container {
@@ -379,6 +393,12 @@ nav ul li a:hover {
 
     nav ul li {
         margin-left: 0px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
     }
 
 }

@@ -1,14 +1,20 @@
-RewriteEngine on
+RewriteEngine On
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+# Redirect /index or /index.php to /
+RewriteRule ^index(?:\.php)?$ / [R=301,L]
 
+# Remove .html from URLs
+RewriteCond %{THE_REQUEST} \s/([^\s?]+)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Internally serve .html files
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+RewriteRule ^ %{REQUEST_URI}.html [L]
 
+# Remove .php from URLs
+RewriteCond %{THE_REQUEST} \s/([^\s?]+)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ /%1 [NC,L,R]
-
+# Internally serve .php files
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+RewriteRule ^ %{REQUEST_URI}.php [L]

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-Top">
             <h1 class="logo"><a href="/index" style="text-decoration:none;color:inherit;">YIWA<span>.</span></a></h1>
-            <button onclick="toggleMenu()"></button>
+            <button type="button" id="navbar-toggle" aria-label="Toggle navigation menu" aria-controls="navbar-Content" aria-expanded="false" onclick="toggleMenu()"></button>
         </div>
         <nav id="navbar-Content">
             <div>

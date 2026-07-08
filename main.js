@@ -1,10 +1,14 @@
 function toggleMenu() {
     var navbar = document.getElementById("navbar");
-    var navbarContent = document.getElementById("navbar-Content");
+    var toggleButton = document.getElementById("navbar-toggle");
 
-    if (navbarContent.style.display == "none") {
-        navbarContent.style.display = "block";
-    } else {
-        navbarContent.style.display = "none"
+    if (!navbar) {
+        return;
+    }
+
+    var isOpen = navbar.classList.toggle("menu-open");
+
+    if (toggleButton) {
+        toggleButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
     }
 }
